@@ -9,6 +9,7 @@ struct MainPageView: View {
                 VStack {
                     chooseButton()
                 }
+                .padding(.bottom)
             }
         }
     }

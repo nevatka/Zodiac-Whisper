@@ -1,10 +1,3 @@
-//
-//  Zodiac_WhisperUITests.swift
-//  Zodiac WhisperUITests
-//
-//  Created by Ada on 15/07/2024.
-//
-
 import XCTest
 
 final class Zodiac_WhisperUITests: XCTestCase {
