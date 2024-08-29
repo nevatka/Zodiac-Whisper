@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		44284B6D2C80F33900D14989 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B6C2C80F33900D14989 /* BackgroundView.swift */; };
+		44284B732C8108CC00D14989 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B722C8108CC00D14989 /* SnapshotTests.swift */; };
+		44E7748A2C810F3100BCD35D /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 44E774892C810F3100BCD35D /* InlineSnapshotTesting */; };
+		44E7748C2C810F3100BCD35D /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 44E7748B2C810F3100BCD35D /* SnapshotTesting */; };
+		44E7748E2C810FA800BCD35D /* View+toVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7748D2C810FA800BCD35D /* View+toVC.swift */; };
 		44EB01312C45AECE00120240 /* Zodiac_WhisperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB01302C45AECE00120240 /* Zodiac_WhisperApp.swift */; };
 		44EB01332C45AECE00120240 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB01322C45AECE00120240 /* MainPageView.swift */; };
 		44EB01352C45AED100120240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EB01342C45AED100120240 /* Assets.xcassets */; };
@@ -38,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		44284B6C2C80F33900D14989 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		44284B722C8108CC00D14989 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		44E7748D2C810FA800BCD35D /* View+toVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+toVC.swift"; sourceTree = "<group>"; };
 		44EB012D2C45AECE00120240 /* Zodiac Whisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zodiac Whisper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB01302C45AECE00120240 /* Zodiac_WhisperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_WhisperApp.swift; sourceTree = "<group>"; };
 		44EB01322C45AECE00120240 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
@@ -65,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E7748A2C810F3100BCD35D /* InlineSnapshotTesting in Frameworks */,
+				44E7748C2C810F3100BCD35D /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +95,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		44284B712C8108AF00D14989 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				44284B722C8108CC00D14989 /* SnapshotTests.swift */,
+				44E7748D2C810FA800BCD35D /* View+toVC.swift */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		44E774872C810E4E00BCD35D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44EB01242C45AECE00120240 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +118,7 @@
 				44EB01402C45AED100120240 /* Zodiac WhisperTests */,
 				44EB014A2C45AED100120240 /* Zodiac WhisperUITests */,
 				44EB012E2C45AECE00120240 /* Products */,
+				44E774872C810E4E00BCD35D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +156,7 @@
 		44EB01402C45AED100120240 /* Zodiac WhisperTests */ = {
 			isa = PBXGroup;
 			children = (
+				44284B712C8108AF00D14989 /* SnapshotTests */,
 				44EB01412C45AED100120240 /* Zodiac_WhisperTests.swift */,
 			);
 			path = "Zodiac WhisperTests";
@@ -188,6 +214,10 @@
 				44EB013F2C45AED100120240 /* PBXTargetDependency */,
 			);
 			name = "Zodiac WhisperTests";
+			packageProductDependencies = (
+				44E774892C810F3100BCD35D /* InlineSnapshotTesting */,
+				44E7748B2C810F3100BCD35D /* SnapshotTesting */,
+			);
 			productName = "Zodiac WhisperTests";
 			productReference = 44EB013D2C45AED100120240 /* Zodiac WhisperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -242,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 44EB01242C45AECE00120240;
+			packageReferences = (
+				44E774882C810F3100BCD35D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 44EB012E2C45AECE00120240 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,6 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E7748E2C810FA800BCD35D /* View+toVC.swift in Sources */,
+				44284B732C8108CC00D14989 /* SnapshotTests.swift in Sources */,
 				44EB01422C45AED100120240 /* Zodiac_WhisperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,6 +655,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44E774882C810F3100BCD35D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44E774892C810F3100BCD35D /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E774882C810F3100BCD35D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		44E7748B2C810F3100BCD35D /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44E774882C810F3100BCD35D /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44EB01252C45AECE00120240 /* Project object */;
 }
