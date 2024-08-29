@@ -11,7 +11,7 @@ import SwiftUI
 struct Zodiac_WhisperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPageView()
         }
     }
 }
