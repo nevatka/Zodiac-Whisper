@@ -20,7 +20,7 @@ private func chooseButton() -> some View {
         HStack {
             NavigationLink(destination: BackgroundView()) {
                 Text("Choose your sign")
-                    .font(.custom("Uphoria Endeavour - Demo", size: 27))
+                    .font(.custom("Uphoria Endeavour - Demo", size: 26))
                     .foregroundColor(.accentColor)
             }
             Image(systemName: "moon.stars.fill")
@@ -33,7 +33,7 @@ private func chooseButton() -> some View {
         HStack {
             NavigationLink(destination: BackgroundView()) {
                 Text("Find out what your zodiac sign is")
-                    .font(.custom("Uphoria Endeavour - Demo", size: 27))
+                    .font(.custom("Uphoria Endeavour - Demo", size: 26))
                     .foregroundColor(.accentColor)
             }
             Image(systemName: "sun.max.fill")
