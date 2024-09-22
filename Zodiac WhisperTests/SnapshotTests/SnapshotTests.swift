@@ -15,5 +15,10 @@ class ZodiacWhisperTests: XCTestCase {
         let mainPageView = MainPageView()
         assertSnapshot(matching: mainPageView.toVC(), as: .image)
     }
+    
+    func testChooseZodiacSignView() {
+        let zodiacSignView = ChooseZodiacSignView()
+        assertSnapshot(matching: zodiacSignView.toVC(), as: .image)
+    }
 }
 
