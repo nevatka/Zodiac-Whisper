@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		44284B6D2C80F33900D14989 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B6C2C80F33900D14989 /* BackgroundView.swift */; };
 		44284B732C8108CC00D14989 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B722C8108CC00D14989 /* SnapshotTests.swift */; };
+		449415BC2CA00B9300080EE1 /* ChooseZodiacSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */; };
 		44E7748A2C810F3100BCD35D /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 44E774892C810F3100BCD35D /* InlineSnapshotTesting */; };
 		44E7748C2C810F3100BCD35D /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 44E7748B2C810F3100BCD35D /* SnapshotTesting */; };
 		44E7748E2C810FA800BCD35D /* View+toVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E7748D2C810FA800BCD35D /* View+toVC.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		44284B6C2C80F33900D14989 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		44284B722C8108CC00D14989 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseZodiacSignView.swift; sourceTree = "<group>"; };
 		44E7748D2C810FA800BCD35D /* View+toVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+toVC.swift"; sourceTree = "<group>"; };
 		44EB012D2C45AECE00120240 /* Zodiac Whisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zodiac Whisper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB01302C45AECE00120240 /* Zodiac_WhisperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac_WhisperApp.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				44EB01322C45AECE00120240 /* MainPageView.swift */,
 				44284B6C2C80F33900D14989 /* BackgroundView.swift */,
+				449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449415BC2CA00B9300080EE1 /* ChooseZodiacSignView.swift in Sources */,
 				44284B6D2C80F33900D14989 /* BackgroundView.swift in Sources */,
 				44EB01332C45AECE00120240 /* MainPageView.swift in Sources */,
 				44EB01312C45AECE00120240 /* Zodiac_WhisperApp.swift in Sources */,
