@@ -19,8 +19,8 @@ private func chooseButton() -> some View {
     
     VStack(spacing: 30) {
         HStack {
-            NavigationLink(destination: BackgroundView()) {
-                Text("Choose your sign")
+            NavigationLink(destination: ChooseZodiacSignView()) {
+                Text("Get your daily horoscope")
                     .font(.custom("Uphoria Endeavour - Demo", size: 26))
                     .foregroundColor(.accentColor)
             }
