@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		44284B6D2C80F33900D14989 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B6C2C80F33900D14989 /* BackgroundView.swift */; };
 		44284B732C8108CC00D14989 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44284B722C8108CC00D14989 /* SnapshotTests.swift */; };
+		447B84C02CBDAB4A00B91B8A /* DailyZodiacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B84BF2CBDAB4A00B91B8A /* DailyZodiacView.swift */; };
 		449415BC2CA00B9300080EE1 /* ChooseZodiacSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */; };
 		449415C02CA02B4100080EE1 /* ZodiacViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449415BF2CA02B4100080EE1 /* ZodiacViewModel.swift */; };
 		449415C32CA0445400080EE1 /* DailyHoroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449415C22CA0445400080EE1 /* DailyHoroscope.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		44284B6C2C80F33900D14989 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		44284B722C8108CC00D14989 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		447B84BF2CBDAB4A00B91B8A /* DailyZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyZodiacView.swift; sourceTree = "<group>"; };
 		449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseZodiacSignView.swift; sourceTree = "<group>"; };
 		449415BF2CA02B4100080EE1 /* ZodiacViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacViewModel.swift; sourceTree = "<group>"; };
 		449415C22CA0445400080EE1 /* DailyHoroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHoroscope.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				44EB01322C45AECE00120240 /* MainPageView.swift */,
 				44284B6C2C80F33900D14989 /* BackgroundView.swift */,
 				449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */,
+				447B84BF2CBDAB4A00B91B8A /* DailyZodiacView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447B84C02CBDAB4A00B91B8A /* DailyZodiacView.swift in Sources */,
 				449415BC2CA00B9300080EE1 /* ChooseZodiacSignView.swift in Sources */,
 				449415C32CA0445400080EE1 /* DailyHoroscope.swift in Sources */,
 				44284B6D2C80F33900D14989 /* BackgroundView.swift in Sources */,
