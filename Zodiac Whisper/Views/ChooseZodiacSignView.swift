@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ChooseZodiacSignView: View {
+    @StateObject private var viewModel = ZodiacViewModel()
     
     let zodiacSigns = [
         "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
@@ -9,6 +10,7 @@ struct ChooseZodiacSignView: View {
         GridItem(.flexible()),  // Auto-resizes each column
         GridItem(.flexible())
     ]
+    
     var body: some View {
 
         ZStack {
@@ -19,8 +21,9 @@ struct ChooseZodiacSignView: View {
                     ForEach(zodiacSigns, id: \.self) { sign in
                         VStack {
                             Button(action: {
-                                // Handle button tap
-                                print("\(sign) tapped")
+                                Task {
+                                    try await viewModel.getHoroscope(sign: sign)
+                                }
                             }) {
                                 Image(sign)                                    .resizable()
                                     .aspectRatio(contentMode: .fit)
