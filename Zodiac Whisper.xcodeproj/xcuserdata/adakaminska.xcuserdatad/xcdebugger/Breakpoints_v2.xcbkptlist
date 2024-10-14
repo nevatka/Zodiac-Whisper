@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6761F403-FF75-44A2-A870-A9DD1CA3AED9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "475B36E9-5573-461A-BE04-D508F1DD8EB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zodiac Whisper/Views/DailyZodiacView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75AD9F28-66E7-497A-B8BB-88B3846D04D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zodiac Whisper/ViewModels/ZodiacViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "getHoroscope(sign:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75AD9F28-66E7-497A-B8BB-88B3846D04D9 - 400dd5b4f0e930"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "75AD9F28-66E7-497A-B8BB-88B3846D04D9 - dd69da5c63c44b33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "75AD9F28-66E7-497A-B8BB-88B3846D04D9 - dd69da5c63c44b33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9D9ACD5-0A94-469E-B721-42516C8925BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zodiac Whisper/ViewModels/ZodiacViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getHoroscope(sign:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9D9ACD5-0A94-469E-B721-42516C8925BF - 400dd5b4f0e8bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17">
+               </Location>
+               <Location
+                  uuid = "F9D9ACD5-0A94-469E-B721-42516C8925BF - dd69da5c63c44abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3DE77E5-279C-467E-93F1-4418BB156B88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zodiac Whisper/ViewModels/ZodiacViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getHoroscope(sign:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3DE77E5-279C-467E-93F1-4418BB156B88 - 400dd5b4f0e911"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+               <Location
+                  uuid = "D3DE77E5-279C-467E-93F1-4418BB156B88 - dd69da5c63c44b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+               <Location
+                  uuid = "D3DE77E5-279C-467E-93F1-4418BB156B88 - dd69da5c63c44b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Zodiac_Whisper.ZodiacViewModel.getHoroscope(sign: Swift.String) async throws -&gt; ()"
+                  moduleName = "Zodiac Whisper.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adakaminska/Desktop/Zodiac%20Whisper/Zodiac%20Whisper/Zodiac%20Whisper/ViewModels/ZodiacViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F40C02E-AC92-457A-A3C8-3D910C8EB9D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zodiac Whisper/ViewModels/ZodiacViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getHoroscope(sign:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

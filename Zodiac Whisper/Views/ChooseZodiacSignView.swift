@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ChooseZodiacSignView: View {
     @StateObject private var viewModel = ZodiacViewModel()
+    @State private var isShowingSheet = false
     
     let zodiacSigns = [
         "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
@@ -12,7 +13,6 @@ struct ChooseZodiacSignView: View {
     ]
     
     var body: some View {
-
         ZStack {
             BackgroundView()
             ScrollView {
@@ -23,9 +23,13 @@ struct ChooseZodiacSignView: View {
                             Button(action: {
                                 Task {
                                     try await viewModel.getHoroscope(sign: sign)
+                                    if viewModel.description != nil {
+                                        isShowingSheet = true  // Show the sheet when horoscope is fetched
+                                    }
                                 }
                             }) {
-                                Image(sign)                                    .resizable()
+                                Image(sign)
+                                    .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 100, height: 100)
                                     .foregroundStyle(.beige)
@@ -41,8 +45,13 @@ struct ChooseZodiacSignView: View {
                 .padding()
             }
             .padding(.bottom)
+            .sheet(isPresented: $isShowingSheet) {
+                if let horoscope = viewModel.description {
+                    DailyZodiacView(horoscope: horoscope)
+                }
+            }
+            
         }
-        
     }
 }
     
