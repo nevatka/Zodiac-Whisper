@@ -2,3 +2,5 @@
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 /Zodiac Whisper.xcodeproj
+/Zodiac Whisper.xcodeproj
+*.xcbkptlist
