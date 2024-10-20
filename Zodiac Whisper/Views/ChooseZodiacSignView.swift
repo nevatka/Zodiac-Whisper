@@ -50,9 +50,10 @@ struct ChooseZodiacSignView: View {
                     DailyZodiacView(horoscope: horoscope)
                 }
             }
-            
+            .alert(viewModel.errorMessage ?? "Error", isPresented: $viewModel.showAlert) {}
         }
     }
+    
 }
     
 #Preview {
