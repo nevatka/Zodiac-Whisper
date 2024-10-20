@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ChooseZodiacSignView: View {
     @StateObject private var viewModel = ZodiacViewModel()
-    @State private var isShowingSheet = false
+    @State var isShowingSheet: Bool = false
     
     let zodiacSigns = [
         "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
