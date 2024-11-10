@@ -1,5 +1,5 @@
 {
-  "originHash" : "b9159aa27a422399912f35454325024ddea3ad5d70382a9d9575206085ec7373",
+  "originHash" : "d6b7d008a47fcd0047f7f7d7b47d97d6f84ee125415693c8ccb5c74f7b6988cf",
   "pins" : [
     {
       "identity" : "swift-snapshot-testing",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "515f79b522918f83483068d99c68daeb5116342d",
         "version" : "600.0.0-prerelease-2024-08-20"
+      }
+    },
+    {
+      "identity" : "zodiackit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markbattistella/ZodiacKit",
+      "state" : {
+        "revision" : "e8780aa817b92238a9216f6311ea4f7cb6cad07b",
+        "version" : "2.1.1"
       }
     }
   ],
