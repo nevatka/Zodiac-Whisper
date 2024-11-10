@@ -11,3 +11,9 @@ This app provides personalized daily horoscopes to help you gain insights into y
 Whether you're a seasoned astrology follower or just curious, the Daily Horoscope App makes it easy and enjoyable to connect with the wisdom of the zodiac.
 
 ![Product Mocup](https://github.com/nevatka/Zodiac-Whisper/blob/main/ProductMocup/ProductMockup.png)
+
+### Learning goals
+1. SwiftUI
+2. Making API connection using https://horoscope-app-api.vercel.app
+3. MVVM architecture
+4. Snapshot and unit tests 
