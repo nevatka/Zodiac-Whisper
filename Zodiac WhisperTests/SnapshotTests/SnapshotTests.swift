@@ -20,5 +20,10 @@ class ZodiacWhisperTests: XCTestCase {
         let zodiacSignView = ChooseZodiacSignView()
         assertSnapshot(matching: zodiacSignView.toVC(), as: .image)
     }
+    
+    func testFindYourZodiacView() {
+        let findZodiacSignView = FindZodiacView()
+        assertSnapshot(matching: findZodiacSignView.toVC(), as: .image)
+    }
 }
 

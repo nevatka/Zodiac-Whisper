@@ -38,16 +38,19 @@ struct ChooseZodiacSignView: View {
                         }
                     }
                 }
+                
                 .padding()
             }
-            .padding(.bottom)
+            .padding(.top)
             .sheet(isPresented: $isShowingSheet) {
                 if let horoscope = viewModel.description {
                     DailyZodiacView(horoscope: horoscope)
                 }
             }
+
             .alert(viewModel.errorMessage ?? "Error", isPresented: $viewModel.showAlert) {}
         }
+        
     }
 }
     
