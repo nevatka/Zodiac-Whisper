@@ -64,6 +64,8 @@
 		446315B12CC6DD9B008EB068 /* ZodiacSigns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSigns.swift; sourceTree = "<group>"; };
 		446315B32CC6DEA0008EB068 /* FindZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindZodiacView.swift; sourceTree = "<group>"; };
 		447B84BF2CBDAB4A00B91B8A /* DailyZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyZodiacView.swift; sourceTree = "<group>"; };
+		447DB0C12CE103A700A8E44E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		447DB0C92CE10AB600A8E44E /* ZodiacWhisperProduct.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZodiacWhisperProduct.pdf; sourceTree = "<group>"; };
 		449415BB2CA00B9300080EE1 /* ChooseZodiacSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseZodiacSignView.swift; sourceTree = "<group>"; };
 		449415BF2CA02B4100080EE1 /* ZodiacViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacViewModel.swift; sourceTree = "<group>"; };
 		449415C22CA0445400080EE1 /* DailyHoroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHoroscope.swift; sourceTree = "<group>"; };
@@ -159,6 +161,14 @@
 			path = ViewModelTests;
 			sourceTree = "<group>";
 		};
+		447DB0C32CE104A700A8E44E /* ProductMocup */ = {
+			isa = PBXGroup;
+			children = (
+				447DB0C92CE10AB600A8E44E /* ZodiacWhisperProduct.pdf */,
+			);
+			path = ProductMocup;
+			sourceTree = "<group>";
+		};
 		449415BD2CA02B1B00080EE1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,8 @@
 		44EB01242C45AECE00120240 = {
 			isa = PBXGroup;
 			children = (
+				447DB0C32CE104A700A8E44E /* ProductMocup */,
+				447DB0C12CE103A700A8E44E /* README.md */,
 				44EB012F2C45AECE00120240 /* Zodiac Whisper */,
 				44EB01402C45AED100120240 /* Zodiac WhisperTests */,
 				44EB014A2C45AED100120240 /* Zodiac WhisperUITests */,
