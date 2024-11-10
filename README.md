@@ -10,4 +10,4 @@ This app provides personalized daily horoscopes to help you gain insights into y
 
 Whether you're a seasoned astrology follower or just curious, the Daily Horoscope App makes it easy and enjoyable to connect with the wisdom of the zodiac.
 
-
+![Product Mocup](https://github.com/nevatka/Zodiac-Whisper/blob/main/ProductMocup/ZodiacWhisperProduct.pdf)
